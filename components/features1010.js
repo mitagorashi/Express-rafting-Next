@@ -216,7 +216,7 @@ const Features1010 = (props) => {
 
 Features1010.defaultProps = {
   feature2ImageSrc: '/df7ad923-8e3e-4d42-9b89-c5a61b82e67e-1400w.jpg',
-  feature3ImageSrc: '/9-200h.jpg',
+  feature3ImageSrc: '/20e455bf-f1e9-4561-8faa-7116b0eba811-200h.jpg',
   feature1ImageAlt: '/df7ad923-8e3e-4d42-9b89-c5a61b82e67e-1400w.jpg',
   sectionDescription: undefined,
   feature2ImageAlt: 'Advanced Analytics Image',

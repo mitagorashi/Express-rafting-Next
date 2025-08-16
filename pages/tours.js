@@ -217,20 +217,9 @@ const Tours = (props) => {
                 </span>
               </Fragment>
             }
-            step3Title={
-              <Fragment>
-                <span className="tours-text27">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_8VytoN'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
             step4Title={
               <Fragment>
-                <span className="tours-text28">
+                <span className="tours-text27">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_2BcFFz'),
@@ -241,10 +230,21 @@ const Tours = (props) => {
             }
             step1Title1={
               <Fragment>
-                <span className="tours-text29">
+                <span className="tours-text28">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_Sqa5go'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            step1Title2={
+              <Fragment>
+                <span className="tours-text29">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_29Q8m4'),
                     }}
                   ></span>
                 </span>
@@ -305,20 +305,9 @@ const Tours = (props) => {
                 </span>
               </Fragment>
             }
-            step3Description={
-              <Fragment>
-                <span className="tours-text35">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_FqTorV'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
             step4Description={
               <Fragment>
-                <span className="tours-text36">
+                <span className="tours-text35">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_rIhPlg'),
@@ -329,10 +318,21 @@ const Tours = (props) => {
             }
             step1Description1={
               <Fragment>
-                <span className="tours-text37">
+                <span className="tours-text36">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_7MEXCC'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            step1Description2={
+              <Fragment>
+                <span className="tours-text37">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_GzGn5B'),
                     }}
                   ></span>
                 </span>

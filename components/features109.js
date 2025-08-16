@@ -220,7 +220,7 @@ Features109.defaultProps = {
   sectionDescription: undefined,
   feature3ImageAlt: 'Customer Support Image',
   feature1ImageSrc: '/20e455bf-f1e9-4561-8faa-7116b0eba811-1400w.jpg',
-  feature3ImageSrc: '/14-200h.jpg',
+  feature3ImageSrc: '/9-200h.jpg',
   mainAction: undefined,
   sectionTitle: undefined,
   feature2ImageAlt: 'Advanced Security Image',

@@ -32,7 +32,7 @@ const Steps1 = (props) => {
               <span className="steps1-text11 thq-body-small">
                 {props.step1Description ?? (
                   <Fragment>
-                    <span className="steps1-text47">
+                    <span className="steps1-text46">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text__c0YYN'),
@@ -52,17 +52,17 @@ const Steps1 = (props) => {
             </div>
             <div className="steps1-container13 thq-card">
               <img
-                alt={props.step3ImageAlt}
-                src={props.step3ImageSrc}
+                alt={props.step1ImageAlt2}
+                src={props.step1ImageSrc2}
                 className="steps1-image2 thq-img-ratio-1-1"
               />
-              <h2 className="thq-heading-2">
-                {props.step3Title ?? (
+              <h2 className="steps1-text13 thq-heading-2">
+                {props.step1Title2 ?? (
                   <Fragment>
-                    <span className="steps1-text46">
+                    <span className="steps1-text36">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_XUHuBG'),
+                          __html: translate.raw('text_KkedLq'),
                         }}
                       ></span>
                     </span>
@@ -70,12 +70,12 @@ const Steps1 = (props) => {
                 )}
               </h2>
               <span className="steps1-text14 thq-body-small">
-                {props.step3Description ?? (
+                {props.step1Description2 ?? (
                   <Fragment>
-                    <span className="steps1-text36">
+                    <span className="steps1-text47">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_JgGpfD'),
+                          __html: translate.raw('text_6Qw-PZ'),
                         }}
                       ></span>
                     </span>
@@ -85,7 +85,7 @@ const Steps1 = (props) => {
               <label className="steps1-text15 thq-heading-3">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_8bOh0y'),
+                    __html: translate.raw('text_MLdy2y'),
                   }}
                 ></span>
               </label>
@@ -96,7 +96,7 @@ const Steps1 = (props) => {
                 src={props.step2ImageSrc}
                 className="steps1-image3 thq-img-ratio-1-1"
               />
-              <h2 className="thq-heading-2">
+              <h2 className="steps1-text16 thq-heading-2">
                 {props.step2Title ?? (
                   <Fragment>
                     <span className="steps1-text41">
@@ -138,7 +138,7 @@ const Steps1 = (props) => {
                 src={props.step4ImageSrc}
                 className="steps1-image4 thq-img-ratio-1-1"
               />
-              <h2 className="thq-heading-2">
+              <h2 className="steps1-text19 thq-heading-2">
                 {props.step4Title ?? (
                   <Fragment>
                     <span className="steps1-text44">
@@ -345,7 +345,7 @@ const Steps1 = (props) => {
         {`
           .steps1-container10 {
             width: auto;
-            height: auto;
+            height: 1195px;
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -353,9 +353,8 @@ const Steps1 = (props) => {
           }
           .steps1-max-width1 {
             gap: var(--dl-layout-space-unit);
-            flex: 0 0 auto;
             width: 100%;
-            height: auto;
+            height: 498px;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
@@ -371,17 +370,15 @@ const Steps1 = (props) => {
           }
           .steps1-container12 {
             flex: 1;
-            width: 253px;
-            height: 100%;
+            width: 265px;
+            height: 480px;
             display: flex;
             position: relative;
-            transition: 0.3s;
             align-items: center;
             flex-direction: column;
             justify-content: center;
             background-color: var(--dl-color-theme-neutral-light);
           }
-
           .steps1-image1 {
             width: var(--dl-layout-size-large);
             height: var(--dl-layout-size-large);
@@ -403,28 +400,23 @@ const Steps1 = (props) => {
           }
           .steps1-container13 {
             flex: 1;
-            width: 274px;
-            height: 397px;
+            width: 265px;
+            height: 480px;
             display: flex;
             position: relative;
-            transition: 0.3s;
             align-items: center;
-            border-radius: var(--dl-layout-radius-cardradius);
             flex-direction: column;
             justify-content: center;
             background-color: var(--dl-color-theme-neutral-light);
           }
-
           .steps1-image2 {
-            top: 127px;
-            left: 32px;
             width: var(--dl-layout-size-large);
-            height: var(--dl-layout-size-large);
-            position: sticky;
-            align-self: flex-start;
-            transition: 0.3s;
+            height: 158px;
           }
-
+          .steps1-text13 {
+            width: 228px;
+            height: 137px;
+          }
           .steps1-text14 {
             text-align: center;
           }
@@ -438,21 +430,22 @@ const Steps1 = (props) => {
           }
           .steps1-container14 {
             flex: 1;
-            width: 266px;
-            height: 100%;
+            width: 265px;
+            height: 480px;
             display: flex;
             position: relative;
-            transition: 0.3s;
             align-items: center;
             border-radius: var(--dl-layout-radius-cardradius);
             flex-direction: column;
             justify-content: center;
             background-color: var(--dl-color-theme-neutral-light);
           }
-
           .steps1-image3 {
             width: var(--dl-layout-size-large);
             height: var(--dl-layout-size-large);
+          }
+          .steps1-text16 {
+            width: 153px;
           }
           .steps1-text17 {
             text-align: center;
@@ -473,21 +466,22 @@ const Steps1 = (props) => {
             flex-direction: row;
           }
           .steps1-container16 {
-            width: 248px;
-            height: 405px;
+            width: 265px;
+            height: 480px;
             display: flex;
             position: relative;
-            transition: 0.3s;
             align-items: center;
             border-radius: var(--dl-layout-radius-cardradius);
             flex-direction: column;
             justify-content: center;
             background-color: var(--dl-color-theme-neutral-light);
           }
-
           .steps1-image4 {
             width: var(--dl-layout-size-large);
             height: var(--dl-layout-size-large);
+          }
+          .steps1-text19 {
+            width: 156px;
           }
           .steps1-text20 {
             text-align: center;
@@ -512,7 +506,7 @@ const Steps1 = (props) => {
           .steps1-container17 {
             gap: var(--dl-layout-space-unit);
             width: 841px;
-            height: 373px;
+            height: 465px;
             display: flex;
             align-self: flex-start;
             align-items: flex-start;
@@ -520,17 +514,15 @@ const Steps1 = (props) => {
           }
           .steps1-container18 {
             flex: 1;
-            width: 237px;
-            height: 100%;
+            width: 265px;
+            height: 480px;
             display: flex;
             position: relative;
-            transition: 0.3s;
             align-items: center;
             flex-direction: column;
             justify-content: center;
             background-color: var(--dl-color-theme-neutral-light);
           }
-
           .steps1-image5 {
             width: var(--dl-layout-size-large);
             height: var(--dl-layout-size-large);
@@ -548,21 +540,19 @@ const Steps1 = (props) => {
           }
           .steps1-container19 {
             flex: 1;
-            width: 237px;
-            height: 100%;
+            width: 265px;
+            height: 480px;
             display: flex;
             position: relative;
-            transition: 0.3s;
             align-items: center;
             border-radius: var(--dl-layout-radius-cardradius);
             flex-direction: column;
             justify-content: center;
             background-color: var(--dl-color-theme-neutral-light);
           }
-
           .steps1-image6 {
-            width: 132px;
-            height: 141px;
+            width: var(--dl-layout-size-large);
+            height: var(--dl-layout-size-large);
           }
           .steps1-text26 {
             text-align: center;
@@ -577,21 +567,20 @@ const Steps1 = (props) => {
           }
           .steps1-container20 {
             flex: 1;
-            width: 244px;
-            height: 100%;
+            width: 265px;
+            height: 480px;
             display: flex;
             position: relative;
-            transition: 0.3s;
             align-items: center;
             border-radius: var(--dl-layout-radius-cardradius);
             flex-direction: column;
             justify-content: center;
             background-color: var(--dl-color-theme-neutral-light);
           }
-
           .steps1-image7 {
             width: var(--dl-layout-size-large);
             height: var(--dl-layout-size-large);
+            margin-top: -64px;
           }
           .steps1-text29 {
             text-align: center;
@@ -612,18 +601,16 @@ const Steps1 = (props) => {
             flex-direction: row;
           }
           .steps1-container22 {
-            width: 242px;
-            height: 383px;
+            width: 265px;
+            height: 480px;
             display: flex;
             position: relative;
-            transition: 0.3s;
             align-items: center;
             border-radius: var(--dl-layout-radius-cardradius);
             flex-direction: column;
             justify-content: center;
             background-color: var(--dl-color-theme-neutral-light);
           }
-
           .steps1-image8 {
             width: var(--dl-layout-size-large);
             height: var(--dl-layout-size-large);
@@ -677,9 +664,6 @@ const Steps1 = (props) => {
           }
           .steps1-text46 {
             display: inline-block;
-            font-size: 30px;
-            font-style: normal;
-            font-weight: 700;
           }
           .steps1-text47 {
             display: inline-block;
@@ -745,8 +729,8 @@ const Steps1 = (props) => {
 Steps1.defaultProps = {
   step4Title1: undefined,
   step2Title1: undefined,
-  step3ImageAlt: 'Customize Image',
-  step3Description: undefined,
+  step1Title2: undefined,
+  step1ImageAlt2: 'Discover Image',
   step1ImageSrc: '/1.jpg',
   step2Alt1: 'Choose Image',
   step3Description2: undefined,
@@ -759,20 +743,20 @@ Steps1.defaultProps = {
   step1Description1: undefined,
   step2Title: undefined,
   step4Description: undefined,
-  step2ImageSrc1: '/9471d5f5-4c87-41e1-8970-2f7e7909b1bd-900w.jpg',
+  step2ImageSrc1: '/9471d5f5-4c87-41e1-8970-2f7e7909b1bd.jpg',
   step1ImageAlt1: 'Discover Image',
   step1ImageAlt: 'Discover Image',
   step3Title2: undefined,
   step4Title: undefined,
   step2Alt: 'Choose Image',
   step2Description: undefined,
-  step2ImageSrc: '/external/screenshot%202025-08-09%20201330-900w.jpg',
+  step2ImageSrc: '/screenshot 2025-08-09 201330.jpg',
   step4ImageAlt: 'Enjoy Image',
   step4ImageAlt1: 'Enjoy Image',
-  step3Title: undefined,
-  step3ImageSrc: '/13e626f8-5c96-4dae-a0b2-947295880a2d-900w.jpg',
+  step1ImageSrc2: '/13e626f8-5c96-4dae-a0b2-947295880a2d.jpg',
   step4ImageSrc1: '/df7ad923-8e3e-4d42-9b89-c5a61b82e67e-1400w.jpg',
   step1Description: undefined,
+  step1Description2: undefined,
   step1Title1: undefined,
   step1Title: undefined,
   step3ImageAlt2: 'Customize Image',
@@ -781,8 +765,8 @@ Steps1.defaultProps = {
 Steps1.propTypes = {
   step4Title1: PropTypes.element,
   step2Title1: PropTypes.element,
-  step3ImageAlt: PropTypes.string,
-  step3Description: PropTypes.element,
+  step1Title2: PropTypes.element,
+  step1ImageAlt2: PropTypes.string,
   step1ImageSrc: PropTypes.string,
   step2Alt1: PropTypes.string,
   step3Description2: PropTypes.element,
@@ -804,10 +788,10 @@ Steps1.propTypes = {
   step2ImageSrc: PropTypes.string,
   step4ImageAlt: PropTypes.string,
   step4ImageAlt1: PropTypes.string,
-  step3Title: PropTypes.element,
-  step3ImageSrc: PropTypes.string,
+  step1ImageSrc2: PropTypes.string,
   step4ImageSrc1: PropTypes.string,
   step1Description: PropTypes.element,
+  step1Description2: PropTypes.element,
   step1Title1: PropTypes.element,
   step1Title: PropTypes.element,
   step3ImageAlt2: PropTypes.string,
