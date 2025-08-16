@@ -370,7 +370,7 @@ const Steps1 = (props) => {
           }
           .steps1-container12 {
             flex: 1;
-            width: 265px;
+            width: 250px;
             height: 480px;
             display: flex;
             position: relative;
@@ -400,7 +400,7 @@ const Steps1 = (props) => {
           }
           .steps1-container13 {
             flex: 1;
-            width: 265px;
+            width: 250px;
             height: 480px;
             display: flex;
             position: relative;
@@ -410,8 +410,8 @@ const Steps1 = (props) => {
             background-color: var(--dl-color-theme-neutral-light);
           }
           .steps1-image2 {
-            width: var(--dl-layout-size-large);
-            height: 158px;
+            width: 140px;
+            height: 140px;
           }
           .steps1-text13 {
             width: 228px;
@@ -430,7 +430,7 @@ const Steps1 = (props) => {
           }
           .steps1-container14 {
             flex: 1;
-            width: 265px;
+            width: 250px;
             height: 480px;
             display: flex;
             position: relative;
@@ -441,8 +441,8 @@ const Steps1 = (props) => {
             background-color: var(--dl-color-theme-neutral-light);
           }
           .steps1-image3 {
-            width: var(--dl-layout-size-large);
-            height: var(--dl-layout-size-large);
+            width: 140px;
+            height: 140px;
           }
           .steps1-text16 {
             width: 153px;
@@ -466,7 +466,7 @@ const Steps1 = (props) => {
             flex-direction: row;
           }
           .steps1-container16 {
-            width: 265px;
+            width: 250px;
             height: 480px;
             display: flex;
             position: relative;
@@ -514,7 +514,7 @@ const Steps1 = (props) => {
           }
           .steps1-container18 {
             flex: 1;
-            width: 265px;
+            width: 250px;
             height: 480px;
             display: flex;
             position: relative;
@@ -540,7 +540,7 @@ const Steps1 = (props) => {
           }
           .steps1-container19 {
             flex: 1;
-            width: 265px;
+            width: 250px;
             height: 480px;
             display: flex;
             position: relative;
@@ -567,7 +567,7 @@ const Steps1 = (props) => {
           }
           .steps1-container20 {
             flex: 1;
-            width: 265px;
+            width: 250px;
             height: 480px;
             display: flex;
             position: relative;
@@ -578,8 +578,8 @@ const Steps1 = (props) => {
             background-color: var(--dl-color-theme-neutral-light);
           }
           .steps1-image7 {
-            width: var(--dl-layout-size-large);
-            height: var(--dl-layout-size-large);
+            width: 140px;
+            height: 140px;
             margin-top: -64px;
           }
           .steps1-text29 {
@@ -601,7 +601,7 @@ const Steps1 = (props) => {
             flex-direction: row;
           }
           .steps1-container22 {
-            width: 265px;
+            width: 250px;
             height: 480px;
             display: flex;
             position: relative;
@@ -743,17 +743,17 @@ Steps1.defaultProps = {
   step1Description1: undefined,
   step2Title: undefined,
   step4Description: undefined,
-  step2ImageSrc1: '/9471d5f5-4c87-41e1-8970-2f7e7909b1bd.jpg',
+  step2ImageSrc1: '/9471d5f5-4c87-41e1-8970-2f7e7909b1bd-900w.jpg',
   step1ImageAlt1: 'Discover Image',
   step1ImageAlt: 'Discover Image',
   step3Title2: undefined,
   step4Title: undefined,
   step2Alt: 'Choose Image',
   step2Description: undefined,
-  step2ImageSrc: '/screenshot 2025-08-09 201330.jpg',
+  step2ImageSrc: '/external/screenshot%202025-08-09%20201330-900w.jpg',
   step4ImageAlt: 'Enjoy Image',
   step4ImageAlt1: 'Enjoy Image',
-  step1ImageSrc2: '/13e626f8-5c96-4dae-a0b2-947295880a2d.jpg',
+  step1ImageSrc2: '/13e626f8-5c96-4dae-a0b2-947295880a2d-900w.jpg',
   step4ImageSrc1: '/df7ad923-8e3e-4d42-9b89-c5a61b82e67e-1400w.jpg',
   step1Description: undefined,
   step1Description2: undefined,
